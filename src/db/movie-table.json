@@ -1,0 +1,22 @@
+{
+    "movieTable": [
+        {
+            "movieNo": "1001",
+            "movieName": "Movie1",
+            "TimeStart": "09:00 a.m",
+            "TimeEnd": "12:00 p.m"
+        },
+        {
+            "movieNo": "1002",
+            "movieName": "Movie2",
+            "TimeStart": "013:00 p.m",
+            "TimeEnd": "16:00 p.m"
+        },
+        {
+            "movieNo": "1003",
+            "movieName": "Movie3",
+            "TimeStart": "17:00 p.m",
+            "TimeEnd": "20:00 p.m"
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+/* SelectBooking Movie Input ----------------*/
+  
+  .container{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    padding: 3em;
+    box-shadow: 0 .02em .02em rgba(0, 0, 0, 1);
+    margin: 0 auto;
+    margin-top: 30%;
+    margin-bottom: 8em;
+  }
+  
+  .select {
+    padding: .05em;
+    font-size:1vw;
+    background-color: rgb(175, 217, 235);
+  }
+  .selectLabel {
+    padding: .25em;
+    border: .05em solid #242323;
+    font-size:1vw;
+    background-color: rgb(175, 217, 235);
+  }
+  
+  .button {
+      margin-top: .5em;
+      background-color: rgb(186, 231, 241);
+      cursor: pointer;
+      font-weight: bold;
+      font-size: medium;
+
+  }
+  .button:hover{
+    background-color: rgb(218, 241, 241);
+  }
+
+  .inputNumber{
+    font-size: 1.5em;
+
+   }
+
+  /* Confirmation ----------------*/
+
+  .containerX{
+    padding: 1em;
+    border: #032104;
+    border-style: solid;
+    align-content: center;
+    background-color: #f1f7f1;
+}
+
+.details {
+    margin-top: 2em;
+    font-size: medium;
+}
+
+.confirmCard{
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin-bottom: 20%;
+    height:25%;
+}
+.cardconfirm{
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+
+}
+
+.confirmButtonHome{
+  background-color: #c3e7fd;
+  font-weight: bold;
+  font-size: medium;
+  border: #032104;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+ /* Navbar ----------------*/
+.title{
+  font-size: 2em;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-shadow: 2px 2px black 
+  }
