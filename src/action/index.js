@@ -1,9 +1,9 @@
-let url = 'http://3.17.216.66:4000'
+let url = 'http://3.17.216.66:4000'// not working..
 let url1 = 'http://localhost:3000/movieTable'
 
 export async function latestMovieList() {
     try {
-        const response = await fetch(`${url}/latest`, { method: 'GET' });
+        const response = await fetch(`${url1}`, { method: 'GET' });
         const data = await response.json();
         return {
             type: 'LatestMovieList',
@@ -21,7 +21,7 @@ export async function latestMovieList() {
 
 
 export function upcomingMovieList() {
-    const output = fetch(`${url}/upcomingMovies`, { method: 'GET' })
+    const output = fetch(`${url1}`, { method: 'GET' })
         .then((res) => res.json())
     return {
         type: 'UpcomingMovieList',
@@ -30,7 +30,7 @@ export function upcomingMovieList() {
 }
 
 export function eventsList() {
-    const output = fetch(`${url}/events`, { method: 'GET' })
+    const output = fetch(`${url1}`, { method: 'GET' })
         .then((res) => res.json())
     return {
         type: 'EventList',
@@ -60,7 +60,7 @@ export async function bookingMovie() {
 export function selectedMovieDetail(id) {
     const output = async () => {
         try {
-            const response = await fetch(`${url}/latest/${id}`, { method: 'GET' });
+            const response = await fetch(`${url1}`, { method: 'GET' });
             const data = await response.json();
             console.log('inside action', data);
             return data;
