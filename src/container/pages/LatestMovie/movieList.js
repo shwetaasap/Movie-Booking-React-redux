@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import '/project24/Movie-booking-app/movie-booking/src/component/app.css';
+import '../../component/app.css';
 
 const MovieList = (props) => {
 

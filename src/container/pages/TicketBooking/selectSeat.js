@@ -2,10 +2,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import SelectSeatType from './selectSeatType';
-import{latestMovieList,bookingMovie} from '/project24/Movie-booking-app/movie-booking/src/action'
+import { latestMovieList, bookingMovie } from '../../action';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-
 class SelectSeat extends Component {
     constructor(props) {
         super(props);

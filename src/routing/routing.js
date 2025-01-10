@@ -1,17 +1,17 @@
-import React,{Component} from "react";
-import {BrowserRouter,Routes, Route, Link} from 'react-router-dom';
+import React, { Component } from 'react';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Login from '../component/Login/login';
 import Home from '../component/Home/home';
 import MovieList from '../container/pages/LatestMovie/movieList';
 import MovieDetailPage from '../container/pages/LatestMovie/movieDetailPage';
-import UpcomingMovie from "../container/pages/UpcomingMovie/upcomingmovie";
-import SelectSeat from "../container/pages/TicketBooking/selectSeat";
-import SelectSeatType from "../container/pages/TicketBooking/selectSeat";
-import SelectBookingInput from "../container/pages/TicketBooking/selectBooking";
+import UpcomingMovie from '../container/pages/UpcomingMovie/upcomingmovie';
+import SelectSeat from '../container/pages/TicketBooking/selectSeat';
+import SelectSeatType from '../container/pages/TicketBooking/selectSeat';
+import SelectBookingInput from '../container/pages/TicketBooking/selectBooking';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import{latestMovieList,upcomingMovieList,eventsList,bookingMovie} from '/project24/Movie-booking-app/movie-booking/src/action'
-import NearByEvents from "../container/pages/UpcomingMovie/nearbyEvents";
+import { latestMovieList, upcomingMovieList, eventsList, bookingMovie } from '../action';
+import NearByEvents from '../container/pages/UpcomingMovie/nearbyEvents';
 
 class Routing extends Component{
 
