@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import SelectSeatType from './selectSeatType';
-import { latestMovieList, bookingMovie } from '../../action';
+import { latestMovieList, bookingMovie } from '../../../actions';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 class SelectSeat extends Component {

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
-import '../../component/app.css';
-import { selectedMovieDetail, clearSlectedMovie } from '../../action';
+import '../../../components/app.css';
+import { selectedMovieDetail, clearSlectedMovie } from '../../../actions';
 
  class MovieDetailPage extends Component{
    
